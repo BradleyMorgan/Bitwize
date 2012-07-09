@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A5725F515AB751A000A2F9B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A5725F415AB751A000A2F9B /* main.c */; };
+		9A5725F715AB751A000A2F9B /* Bitwize.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A5725F615AB751A000A2F9B /* Bitwize.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9A5725EE15AB7519000A2F9B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9A5725F715AB751A000A2F9B /* Bitwize.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9A5725F015AB751A000A2F9B /* Bitwize */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bitwize; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5725F415AB751A000A2F9B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9A5725F615AB751A000A2F9B /* Bitwize.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Bitwize.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A5725ED15AB7519000A2F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A5725E515AB7519000A2F9B = {
+			isa = PBXGroup;
+			children = (
+				9A5725F315AB751A000A2F9B /* Bitwize */,
+				9A5725F115AB751A000A2F9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A5725F115AB751A000A2F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A5725F015AB751A000A2F9B /* Bitwize */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A5725F315AB751A000A2F9B /* Bitwize */ = {
+			isa = PBXGroup;
+			children = (
+				9A5725F415AB751A000A2F9B /* main.c */,
+				9A5725F615AB751A000A2F9B /* Bitwize.1 */,
+			);
+			path = Bitwize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A5725EF15AB7519000A2F9B /* Bitwize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A5725FA15AB751A000A2F9B /* Build configuration list for PBXNativeTarget "Bitwize" */;
+			buildPhases = (
+				9A5725EC15AB7519000A2F9B /* Sources */,
+				9A5725ED15AB7519000A2F9B /* Frameworks */,
+				9A5725EE15AB7519000A2F9B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bitwize;
+			productName = Bitwize;
+			productReference = 9A5725F015AB751A000A2F9B /* Bitwize */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A5725E715AB7519000A2F9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Morgan Consulting";
+			};
+			buildConfigurationList = 9A5725EA15AB7519000A2F9B /* Build configuration list for PBXProject "Bitwize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A5725E515AB7519000A2F9B;
+			productRefGroup = 9A5725F115AB751A000A2F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A5725EF15AB7519000A2F9B /* Bitwize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A5725EC15AB7519000A2F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5725F515AB751A000A2F9B /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A5725F815AB751A000A2F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9A5725F915AB751A000A2F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9A5725FB15AB751A000A2F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A5725FC15AB751A000A2F9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A5725EA15AB7519000A2F9B /* Build configuration list for PBXProject "Bitwize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5725F815AB751A000A2F9B /* Debug */,
+				9A5725F915AB751A000A2F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5725FA15AB751A000A2F9B /* Build configuration list for PBXNativeTarget "Bitwize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5725FB15AB751A000A2F9B /* Debug */,
+				9A5725FC15AB751A000A2F9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A5725E715AB7519000A2F9B /* Project object */;
+}
